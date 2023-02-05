@@ -1,0 +1,81 @@
+.home-bg {
+  background-image: url("https://res.cloudinary.com/dystdxfua/image/upload/v1673024193/just%20cupcakes/home-bg_fz7dyd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 1vw;
+  height: 37rem;
+  margin-top: -6rem;
+  margin-bottom: 5rem;
+}
+.title {
+  width: 70rem;
+  height: 10rem;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  color: var(--color-violet-jc);
+  text-align: left;
+  margin: auto;
+  padding-top: 11rem;
+  text-shadow: var(--color-pink-jc) 0.2rem -0.15rem 0.2rem;
+}
+.category-title {
+  max-width: 110rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0 2rem 3rem;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+.list-container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-gap: 5rem 2rem;
+  width: 100%;
+}
+.item-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+.qty-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.qty-num-bar {
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 5rem;
+  text-align: center;
+  margin: 0;
+}
+.minus,
+.plus {
+  cursor: pointer;
+  font-family: arial;
+  font-size: 2.5rem;
+  color: var(--color-pink-jc);
+}
+.btn {
+  font-size: 1.3rem;
+  font-family: inherit;
+  color: white;
+  font-weight: 700;
+  border-radius: 2rem;
+  background-color: var(--color-pink-jc);
+  height: 4rem;
+  width: 17rem;
+  cursor: pointer;
+  margin-top: -1rem;
+}

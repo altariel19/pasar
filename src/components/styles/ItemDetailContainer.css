@@ -1,0 +1,9 @@
+.detail-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.detail-card {
+  max-width: 100rem;
+  margin: 10rem auto 1rem auto;
+}

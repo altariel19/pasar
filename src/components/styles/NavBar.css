@@ -1,0 +1,59 @@
+.navbar-main {
+  margin-top: 3.5rem;
+  height: 7rem;
+  background-color: var(--color-pink-jc);
+  width: 100%;
+}
+.navbar-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 110rem;
+}
+.navlogo-container {
+  align-items: center;
+}
+.navbar-logo {
+  margin-top: -2.5rem;
+  height: 15rem;
+  width: 15rem;
+}
+.navlist-container,
+.navcart-container {
+  padding: 2rem 3rem;
+}
+.navlist {
+  display: inline;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  width: 38rem;
+  left: 0;
+}
+.navlist-item {
+  font-size: 3rem;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+.cart-icon {
+  font-size: 3rem;
+  color: var(--color-violet-jc);
+}
+.quantity {
+  background-color: var(--color-violet-jc);
+  position: relative;
+  top: -4rem;
+  left: 1.5rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  z-index: 10;
+}
